@@ -1,2 +1,21 @@
 # TechnicalTest
-Technical Test
+
+REST API to get country details of a mobile number using python FastAPI framework.
+
+-- Api Endpoint is secured with JWT token authentication.
+-- Post API.
+-- Proper unit test cases are added.(pytest)
+
+Steps.
+
+  1. Install all the requirements.
+
+  2. Import the project in vscode.
+
+  3. Run uvicorn webserver
+      python -m uvicorn main:app --reload or uvicorn main:app --reload.
+   
+  4. Open http://127.0.0.1:8000/docs in browser for swagger doc and test the api.
+
+   5. To run test cases.
+      python -m pytest or pytest
