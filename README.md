@@ -12,9 +12,9 @@ Steps.
   2. Import the project in vscode.
 
   3. Run uvicorn webserver
-      python -m uvicorn main:app --reload or uvicorn main:app --reload.
+      * python -m uvicorn main:app --reload or uvicorn main:app --reload.
    
   4. Open [http://127.0.0.1:8000/docs](http://localhost:8000/docs) in browser for documentation and test the api.
 
    5. To run test cases.
-      python -m pytest or pytest
+      * python -m pytest or pytest
