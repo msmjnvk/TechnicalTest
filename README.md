@@ -2,9 +2,8 @@
 
 REST API to get country details of a mobile number using python FastAPI framework.
 
--- Api Endpoint is secured with JWT token authentication.
--- Post API.
--- Proper unit test cases are added.(pytest)
+* POST Api Endpoint, secured with JWT token authentication.
+* Unit test cases with pytest framework.
 
 Steps.
 
